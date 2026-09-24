@@ -6,3 +6,4 @@ docker run --rm -v data:/data alpine cat /data/besked.txt
 docker volume rm data
 
 ! docker run--rmalpine cat /data/besked.txt
+docker volume ls
